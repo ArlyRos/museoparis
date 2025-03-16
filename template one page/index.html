@@ -1,0 +1,221 @@
+<!--comenzamos creando la estrucura basica
+de un documento html escribiendo <html y 
+teclenado enter para autocompletar, lo que creara
+la estructura que se llenara como se menciona a continuación...-->
+
+<!--indica el tipo de docuemnto-->
+<!DOCTYPE html> 
+<!--dentro de l etiqueta html esta todo el contenido del documento html-->
+<html> 
+<!------------encabezado de pagina----------->
+<!--dentro de la etiqueta head esta el encabezado del documento html-->
+<head> 
+	<title>Museo de Louvre</title> <!--dentro de la etiqueta tittle esta el titulo de la página-->
+	<link rel='stylesheet' href='estilos.css'/> <!--dentro de esta etiqueta esta la referencia a la hoja de estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--viewport para trabajar responsive design-->
+</head>
+
+<!------------body de pagina----------->  
+<!--dentro de la estiqueta body tipicamente esta todo lo que contendra página-->
+<body> 
+
+
+	<!--dentro de la estiqueta header esta todo lo que sera el encanbezado de la página, pudiendo colocarse dentro del body o antes del body-->
+	<header class='menu-container' id="inicio">
+
+      <div class='identificador'>
+        <!----modificar nombre y ruta de la imagen para cambiar el logo por el propio----->
+       <img src="imagenes/logo.png">
+      </div>
+
+      <div class='ligas-secciones'>
+      	<!----modificar nombre de la seccion acorde a la necesidad----->
+          <a href="#secc1">Palacio Louvre</a>
+          <a href="#secc2">Recorrido Virtual</a>
+          <a href="#secc3">Obras Destacadas</a>
+          <a href="#secc4">Festivales</a>
+        </div>
+
+    </header>
+
+ 
+
+
+	<!--contenedor que agrupa todos los contenedores que tienen los contenidos de cada sección que aprecen entre el encabezado y pie de pagina-->
+    <main class="secciones">
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc1">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Palacio Louvre</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>El edificio es de por sí una obra de arte. Fue construido como palacio real por Francisco I en 1546, aunque el monarca no lo llegó a ver terminado. Enrique II y Carlos IX disfrutaron de esta residencia que, por entonces, ya albergaba una rica colección de arte. 
+
+Luis XIII y Luis XIV ampliaron el palacio al objeto de acoger las nuevas adquisiciones. En 1682, Luis XIV trasladó la corte a Versalles y el Louvre dejó de ser residencia real. Comenzó un movimiento, liderado por los intelectuales de la época, para su transformación en museo, que se hizo efectiva el 10 de agosto de 1793. 
+</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Desde esa fecha se convirtió en un ejemplo a seguir para el resto de Europa. Las colecciones reunidas por la monarquía francesa a los largo de los siglos, las obras desamortizadas durante la Revolución Francesa y las piezas obtenidas durante las campañas arqueológicas y las guerras napoleónicas pasaban de ser de uso privado al disfrute del público en general.  
+
+Hoy en día es uno de los museos más visitados del mundo y custodia algunas de las obras más importantes a nivel mundial.
+ <br>
+<p>Te invitamos a conocer nuestras colecciones itinerantes y los eventos culturales que se desarrollan durante el año.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección 1, OJO: este tiene un layout para dos imagenes-->
+    		<div class="imgs-secc-1">
+    			<!--contenedor con las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+	        		
+    			</div>
+    			<!--contenedor los dos textos de las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--texto para imagen a la izquierda-->
+	        		<p></p>
+	        		<!--texto para imagen a la derecha-->
+	        		<p></p>
+        		</div>
+        		<!--contenedor con las dos imagenes en su version mobile-->
+        		<div class="par-imgs-mobile">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+	        		<!--texto para la imagen-->
+	        		<p>....</p>
+	        		<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<!--texto para la imagen-->
+	        		<p>...</p>
+    			</div>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc2">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Recorrido Virtual</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>El museo de Louvre de París está localizado en la capital de Francia. Está integrado por 3 edificios principales, llamados ailes o pabellones, uno ubicado al sur del museo, llamado pabellón Denon, el central, llamado pabellón Sully, y el pabellón norte, designado como pabellón Richelieu. En ocho siglos de historia el museo de Louvre de París no ha dejado de adquirir colecciones y diversas obras de arte, siguiendo la evolución de la historia del arte y de la arqueología. 
+</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Conoce al Musée du Louvre de noche en nuestro recorrido virtual de 360°, da click en la imagen.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen"> <a href="https://arlyros.github.io/360v/">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+                <img  src="imagenes/img2.png" title="Img 2"> 
+            </a>
+        		<!--texto para la imagen-->
+        		<p>.</p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc3">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Obras Destacadas</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>'La Gioconda'
+
+Gioconda significa "esposa alegre o jovial”. El retrato de Lisa Gherardini, esposa de Francesco del Giocondo, más conocido como La Gioconda (La Joconde en francés) o Monna Lisa. <br>Es una obra pictórica del renacentista florentino Leonardo da Vinci. Es un óleo sobre tabla de álamo de 79 × 53 cm, pintado entre 1503 y 1519.
+</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>'Venus de Milo’
+
+Es una de las estatuas más representativas del periodo helenístico y resume el ideal de belleza griego. Es una de las tres grandes damas del Museo del Louvre.</p>
+<br>
+<p>'La Libertad guiando al pueblo’
+
+Eugène Delacroix, máximo exponente del romanticismo francés, pintó la revolución de julio de 1830  en la que el pueblo de París se levantó en armas contra el rey Carlos X con personajes alegóricos y arquetípicos. </p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img3.png" title="Img 3">
+        		<!--texto para la imagen-->
+        		<p>.</p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc4">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Festivales</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Durante el año se llevan acabo eventos culturales y festivales internacionales que promueven el arte y la convivencia. Este año, durante el mes de Abril, se desarrollará el Festival Internacional ´Mon Ami Le Petit Prince´, donde conmemoraremos el 82 aniversario de la publicación de El Principito de Antoine de Saint-Exupéry.</p> <br>
+
+<p>Una obra literaria que se ha traducido a más de 200 idiomas y es considerado como un libro infantil (por la forma en la que está escrito), pero que es en realidad una crítica a la adultez en la que se tratan temas profundos como el sentido de la vida, la soledad, la amistad, el amor y la pérdida.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Además habrá conferencias, libros y presentaciones por parte de sus autores y contenidos audiovisuales que han participado en diferentes festivales de cine. <br>
+
+<p>Al dar click en la siguiente ilustración, podrás ver trailers especiales sobre autores, libros y filmes que están invitados al festival ¿Listos para la diversión? </p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+                
+                <a href="https://youtube.com/playlist?list=PLdVzenyk7IGVRkAvLCP9UN1ylS4NjrM81&si=EciuTzL6W8rTNbi7">
+              
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img4.png" title="Img 4">
+                  </a>
+        		<!--texto para la imagen-->
+        		<p>.</p>
+    		</div>
+
+    	</div>
+
+    </main>
+
+    <!------------pie de pagina----------->
+    <!--dentro de la etiqueta footer esta todo lo que sera el pie de página, pudiendo colocarse dentro del body o despues del body-->
+	<footer>
+	   
+	    <div class='footer-item'>
+	      <!----modificar el href para que dirija una pagina especifica de facebook----->
+	      <a href="https://www.facebook.com/">
+	      	<img src="imagenes/fbk.png" title="Facebook">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de twitter----->
+	      <a href="https://twitter.com/">
+	      	<img src="imagenes/twt.png" title="Twitter">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de instagram----->
+	      <a href="http://instagram.com/">
+	      	<img src="imagenes/inst.png" title="Instagram">
+	      </a>
+	    </div>
+
+	    <div class="copyright">
+	    	<!----modificarlo con datos o mensaje propio----->
+	      <p style="">Museo de Louvre, 2025</p>
+	    </div>
+	    
+	  </footer>
+	<!------------------------------------>
+
+	<!---------enlace que regresa al inicio de la pagina--------->
+	<!--dentro de la etiqueta "a" de tipo enlace esta la imagen que actua como icono que regresa al inicio de la página-->
+	    <a class="ir-arriba" title="Volver arriba" href="#inicio">
+	    	<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	      	<img src="imagenes/flecha-arriba.png">
+	    </a>
+
+</body>
+
+</html>
